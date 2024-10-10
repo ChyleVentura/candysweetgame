@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Sweet Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="popup-wrapper">
+        </div>
+            <div class="popup-contact-form">
+                <i class="close-button fa-solid fa-xmark"></i>
+                <h1 class="popup-title">SWEET!</h1>
+                <form action="otp-verification.html" method="GET">
+                    <p>Enter your mobile number to receive a PIN and start your sweet journey!</p>
+                    <input id="telnum" class="input_telnum" type="tel" name="mobile" placeholder="Contact Number" required>
+                    <button type="submit">GET OTP</button>
+                 </form>
+            </div>
+        <header>
+           <nav>
+            <div class="navbar-img">
+                <img src="imgs/blast_crush_game_studio_logo.jpeg" alt="">
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="">Our studio</a></li>
+                    <li><a href="">Data Safety</a></li>
+                    <li><a href="">About This Game</a></li>
+                </ul>
+            </div>
+            <div class="navbar-button">
+                <button>SIGN UP</button>
+                <i class="dropdown fa-solid fa-square-caret-down"></i>
+                <i></i>
+            </div>
+           </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-title"> 
+                    <p class="game-title">Candy Sweet Garden</p>
+                    <h1>Sweet Adventure</h1>
+                    <p>Join thousands of players in the most 
+                        delightful and addictive puzzle game. Match candies, solve puzzles, 
+                        and enjoy sweet rewards!</p>
+                    <div class="hero-button">
+                        <button>PLAY NOW</button>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img src="imgs/hero-img.png" alt="">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="badge-wrapper">
+                <ul class="badge-container">
+                    <li>
+                        <img src="imgs/GetItOnGooglePlay_Badge_Web_color_English.png" 
+                        alt="googleplay">
+                    </li>
+                    <li>
+                        <img src="imgs/appstore.webp"
+                        alt="googleplay">
+                    </li>
+                </ul>
+            </div>
+            <p class="copyright">&copy; 2024 Candy Sweet Garden. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
